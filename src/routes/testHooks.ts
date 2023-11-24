@@ -1,7 +1,7 @@
-import { onMount } from "svelte";
+import { onMount } from 'svelte';
 
 export const mountTest = () => {
-    onMount(() => {
-        console.log("mounted");
-    })
-};  
+	onMount(() => {
+		console.log('mounted');
+	});
+};

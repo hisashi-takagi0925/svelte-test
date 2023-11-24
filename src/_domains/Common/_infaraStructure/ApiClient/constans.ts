@@ -1,3 +1,3 @@
 export const DEFAULT_CONFIG = {
-    validateStatus: () => true
+	validateStatus: () => true
 };
