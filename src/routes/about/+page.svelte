@@ -1,3 +1,9 @@
+<script>
+    import { CountStore } from '../../_domains/Counter/_application/_store';
+
+    const countStore = new CountStore();
+</script>
+
 <svelte:head>
     <title>About</title>
     <meta name="description" content="About this app" />
@@ -7,6 +13,7 @@
     <h1>About this app</h1>
 
     <p>
+        {$countStore}
         This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make
         your own by typing the following into your command line and following the
         prompts:

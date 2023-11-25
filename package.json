@@ -32,6 +32,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltestack/svelte-query": "^1.6.0",
 		"@tanstack/svelte-query": "^5.8.7",
 		"axios": "^1.6.2",
 		"jotai": "^2.6.0",

@@ -6,7 +6,7 @@
 
 <div class="counter">
     <button
-        on:click={countStore.increment}
+        on:click={countStore.decrement}
         aria-label="Decrease the counter by one"
     >
         <svg aria-hidden="true" viewBox="0 0 1 1">

@@ -2,7 +2,7 @@ import { writable } from "svelte/store"
 
 import type { ICountStore } from "./interface";
 
-const countStore = writable<number>(0)
+const countStore = writable<number>(0,)
 
 export class CountStore implements ICountStore {
     subscribe = countStore.subscribe;
@@ -10,4 +10,3 @@ export class CountStore implements ICountStore {
     decrement = () => countStore.update((n) => n - 1)
     reset = () => countStore.set(0)
 }
-
