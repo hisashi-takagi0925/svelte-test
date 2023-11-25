@@ -37,6 +37,7 @@ module.exports = {
 				alphabetize: { order: 'asc', caseInsensitive: true }
 			}
 		],
+		'import/no-unused-modules': [1, { unusedExports: true }],
 		'import/newline-after-import': 'error'
 	}
 };
