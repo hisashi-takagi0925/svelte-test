@@ -1,10 +1,6 @@
 <script lang="ts">
 	import { spring } from 'svelte/motion';
 
-	import { mountTest } from './testHooks';
-
-	mountTest();
-
 	let count = 0;
 
 	const displayed_count = spring();
